@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!--Compatibilidade com o celular-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    
+        .naomuda{
+            background-image: url('./css/imagens/pintor kaladesh.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .letra{
+            opacity: 75%;
+        }
+
+        .img{
+            padding:20px;
+            border-radius: 30px;
+        }
+        .redondo{
+            border-radius: 20px;
+        }
+
+        .inscricao{
+            margin: 10px;
+            align-items: flex-start;
+        }
+
+        .invisivel{
+            display: none;
+        }
+
+    </style>
+    </head>
+
+  <body class="d-flex flex-column min-vh-100">
+
+
+    <header>
+        <div class="container-xxl bg-dark">
+            <nav class="navbar navbar-expand-lg fs-6 navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand">
+                    <img src="css/imagens/icon.webp" alt="Logo" width="100" class="d-inline-block redondo  align-text">
+                    Aulas de Frameworks para CSS
+                    </a>
+
+                    <!-- Botão do menu em telas pequenas -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Links e conteúdo colapsável -->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-3">
+                        <li class="nav-item">
+                        <a class="nav-link link active" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link link" href="./html/boostrap.html">Bootstrap</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link link" href="./html/tailwind.html">Tailwind</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link link" href="./html/chakra.html">Chakra IU</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link link" href="./html/aulas.html">Aulas</a>
+                        </li>
+                    
+                    </ul>
+
+                    <!-- Botões à direita -->
+                    <div class="d-flex naveespacial">
+                        <a href="./html/inscrição.html" class="link botao"><button class="btn link btn-primary me-2 botao" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscrição</button></a>                       
+                    </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+<main  id="main-content" class="container-xxl flex-fill text-center naomuda">
+        <div class="container">
+            <h1 class="text-danger bg-light">A Importância de Aprender CSS na programação</h1>
+            <p class="bg-light text-dark letra">No mundo do desenvolvimento front-end, dominar CSS (Cascading Style Sheets) é essencial para criar páginas modernas,<br>
+            responsivas e visualmente atraentes. Enquanto o HTML define a estrutura do conteúdo e o JavaScript adiciona interatividade,<br> 
+            é o CSS que transforma tudo em uma experiência agradável para o usuário. Ao investir em cursos de CSS, o programador<br> 
+            aprende não apenas a personalizar cores, fontes e layouts, mas também a aplicar boas práticas de responsividade,<br>
+            acessibilidade e design moderno, tornando os sites mais profissionais e funcionais em qualquer dispositivo. Além disso,<br>
+             entender bem CSS é um passo fundamental para dominar frameworks populares como Bootstrap, TailwindCSS<br>
+            e até mesmo trabalhar de forma mais eficiente com bibliotecas JavaScript como React e Vue. Portanto, estudar<br>
+            CSS vai muito além da aparência: é a base para construir interfaces que unem estética, usabilidade e performance <br> 
+            — qualidades indispensáveis para qualquer programador front-end de sucesso.</p>
+        </div>
+</main>
+    <footer>
+        <footer class="bg-dark text-light text-center p-3 mt-auto">
+        <p class="mb-0">Todos os direitos reservados </p>
+    
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </footer>
+  </body>
+</html>
